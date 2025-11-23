@@ -4,6 +4,7 @@ import os
 import asyncio
 import logging
 from dotenv import load_dotenv
+from database import DatabaseManager
 from health_check import HealthCheckServer
 
 load_dotenv()
