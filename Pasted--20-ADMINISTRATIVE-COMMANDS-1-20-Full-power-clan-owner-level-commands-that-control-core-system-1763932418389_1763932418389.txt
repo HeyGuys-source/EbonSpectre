@@ -1,0 +1,178 @@
+⚙️ 20 ADMINISTRATIVE COMMANDS (1–20)
+
+Full-power, clan-owner–level commands that control core systems, data, and structure.
+
+⸻
+
+1. /setup
+
+Initializes the bot in the server (creates roles, channels, databases).
+
+2. /reset-bot
+
+Wipes all bot data in the server and restores defaults.
+(Confirmation required.)
+
+3. /config view
+
+Shows all bot settings currently active (prefixes, permissions, clan settings).
+
+4. /config set <option> <value>
+
+Changes a specific bot configuration setting (e.g., set logging channel, clan tag).
+
+5. /clan set-tag <TAG>
+
+Sets the official clan tag so the bot uses it in logs and recruitment commands.
+
+6. /clan set-requirements <league> <minimum-hangar-power>
+
+Defines what players must meet to join the clan.
+
+7. /clan message <content>
+
+Sends a clan-wide announcement (auto-pings selected role).
+
+8. /role-link <discord-role> <clan-rank>
+
+Links a Discord role to a clan rank (R1–R5). Auto-sync enabled.
+
+9. /sync-ranks
+
+Auto-updates every member’s Discord role based on the rank sheet.
+
+10. /import-members <file>
+
+Uploads a CSV/Excel of clan members and syncs them into the bot.
+
+11. /export-members
+
+Downloads the current member list (names, ranks, activity).
+
+12. /activity-threshold <days>
+
+Defines inactivity limit before automatic warnings.
+
+13. /force-activity-scan
+
+Immediately checks every member’s activity and marks inactive players.
+
+14. /audit-log enable|disable
+
+Turns full audit logging on or off (kicks, bans, changes).
+
+15. /auto-roles enable|disable
+
+Enables auto-role assignment based on league/power.
+
+16. /backup
+
+Creates a backup of bot data for the server.
+
+17. /restore <backup-id>
+
+Restores a previous backup.
+
+18. /permissions set <command> <role>
+
+Restricts a command to certain roles.
+
+19. /blacklist add <user>
+
+Blocks a user from interacting with the bot.
+
+20. /blacklist remove <user>
+
+Removes someone from the bot blacklist.
+
+⸻
+
+🛡️ 20 MODERATOR COMMANDS (21–40)
+
+Moderation, clan enforcement, and community management tools.
+
+⸻
+
+21. /warn <user> <reason>
+
+Adds a warning to a user and DMs them automatically.
+
+22. /warnings <user>
+
+Shows all warnings a user has.
+
+23. /remove-warning <user> <warning-id>
+
+Deletes a specific warning.
+
+24. /mute <user> <duration>
+
+Prevents user from speaking for the specified time.
+
+25. /unmute <user>
+
+Unmutes the user.
+
+26. /kick <user> <reason>
+
+Kicks the user from the server with logged reason.
+
+27. /ban <user> <reason>
+
+Bans the user permanently.
+
+28. /unban <user>
+
+Removes a user’s ban.
+
+29. /purge <amount>
+
+Deletes X messages from a channel.
+
+30. /lock-channel
+
+Stops anyone except mods from speaking in the channel.
+
+31. /unlock-channel
+
+Reopens the channel.
+
+32. /slowmode <seconds>
+
+Sets a send-delay (anti-spam).
+
+33. /note <user> <private-note>
+
+Adds a private staff note on the user only visible to mods.
+
+34. /notes <user>
+
+Views all staff notes for a user.
+
+35. /verify <user>
+
+Marks the user as verified and assigns starter roles.
+
+36. /report <message-link>
+
+Logs a message to the staff channel for review.
+
+37. /clean-bots
+
+Deletes bot spam messages automatically.
+
+38. /raid-shield enable|disable
+
+Turns on temporary anti-raid lockdown mode.
+
+39. /scan-profile <user>
+
+Scans username, avatar, and bio for inappropriate content.
+
+⸻
+
+40. /echo (Your Required Special Command)
+
+A multipurpose speaking tool for staff.
+
+Usage:
